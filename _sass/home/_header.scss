@@ -1,0 +1,46 @@
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url('/assets/img/nmb_background-02.jpg');
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .2);
+
+    .row {
+        height: 100vh;
+    }
+
+    &__logo {
+        width: 200px;
+        margin-bottom: 90px;
+
+        @media (min-width: 992px) {
+            width: 300px;
+        }
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: $body-font;
+        margin-bottom: 25px;
+        letter-spacing: 3px;
+        margin-bottom: 50px;
+
+        @media (min-width: 992px) {
+            font-size: 60px;
+        }
+    }
+
+    p {
+        font-size: 18px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #ffffff;
+
+        @media (min-width: 992px) {
+            font-size: 24px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+//typography
+$main-font: "Albra-Bold",
+sans-serif;
+$body-font: "motor",
+monospace;
+
+//colors
+$color-white: #fff;
+$color-black: #483e3c;
+
+$color-beige: #f5f3ea;
+$color-green: #9dc99d;
+$color-lightGreen: #cfdccf;
+$color-red: #dbb0a2;
+$color-yellow: #f3dbb5;
+
+$color-light-grey: #eeeeee;
+$color-background-light: #f6f6f6;
+
+//borders
+$border-standard: 1px solid $color-light-grey;
+
+//shadows
+$box-shadow: 2px 0px 24px 13px rgba($color-black, 0.05);
+$box-shadow-med: 0px 0px 25px 1px rgba($color-black, 0.1);
+$box-shadow-big: 0px 8px 16px 0px rgba($color-black, 0.2);

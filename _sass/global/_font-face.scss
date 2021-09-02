@@ -1,0 +1,14 @@
+/* @import must be at top of file, otherwise CSS will not work */
+// @import url("//hello.myfonts.net/count/3e5cc6");
+
+// @font-face {
+//   font-family: "Albra-Bold";
+//   src: url("{{ 'albrabold.woff2' | asset_url }}") format("woff2"),
+//     url("{{ 'albrabold.woff' | asset_url }}") format("woff");
+// }
+
+// @font-face {
+//   font-family: "Larsseit-Regular";
+//   src: url("{{ 'larsseitregular.woff2' | asset_url }}") format("woff2"),
+//     url("{{ 'larsseitregular.woff' | asset_url }}") format("woff");
+// }
